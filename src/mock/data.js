@@ -10,9 +10,9 @@ export const headData = {
 // HERO DATA
 export const heroData = {
   title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Nicholas Wu',
+  subtitle: 'BS in Finance, Minor in Data Science',
+  cta: 'About Me',
 };
 
 // ABOUT DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'Nicholas-Wu-Resume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -72,18 +72,18 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'kaggle',
+      url: 'https://www.kaggle.com/nickrwu',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/nicholas-wu/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/nickrwu',
     },
   ],
 };
