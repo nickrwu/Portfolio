@@ -9,7 +9,7 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: ' ',
   name: 'Nicholas Wu',
   subtitle: 'BS in Finance, Minor in Data Science',
   cta: 'About Me',
@@ -57,7 +57,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'Feel free to email me to talk',
+  cta: 'Feel free to contact me through my email',
   btn: '',
   email: 'nicholas.wu@stern.nyu.edu',
 };
