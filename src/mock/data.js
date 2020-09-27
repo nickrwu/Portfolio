@@ -18,9 +18,10 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne:
+    "Hey there! My name is Nicholas Wu. I'm a current freshman at New York University's Stern School of Business majoring in Finance and minoring in Data Science.",
+  paragraphTwo: 'In my spare time I am competitive fencer and a cooking enthusiast.',
+  paragraphThree: 'Currently seeking internships for data analyst roles.',
   resume: 'Nicholas-Wu-Resume.pdf', // if no resume, the button will not show up
 };
 
