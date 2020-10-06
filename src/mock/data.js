@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'BS in Finance, Minor in Data Science',
+  subtitle: 'Finance + Data Science',
   cta: 'About Me',
 };
 
@@ -19,10 +19,10 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! My name is Nicholas Wu. I'm a current freshman at New York University's Stern School of Business majoring in Finance and minoring in Data Science.",
-  paragraphTwo: 'In my spare time I am competitive fencer and a cooking enthusiast.',
-  paragraphThree: 'Currently seeking internships for data analyst roles.',
-  resume: 'Nicholas-Wu-Resume.pdf', // if no resume, the button will not show up
+    "Hey there! I'm an undergrad at New York University's Stern School of Business majoring in Finance and minoring in Data Science.",
+  paragraphTwo: 'My current interests are in algorithmic trading and machine learning.',
+  paragraphThree: 'In my spare time I am competitive fencer and a cooking enthusiast.',
+  resume: 'https://drive.google.com/file/d/1wzpvyF4jmJgYCQNyoBGvWQfsseDQeI7v/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -68,22 +68,22 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'kaggle',
-      url: 'https://www.kaggle.com/nickrwu',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/nicholas-wu/',
     },
     {
       id: nanoid(),
       name: 'github',
+      url: 'https://github.com/nickrwu',
+    },
+    {
+      id: nanoid(),
+      name: 'kaggle',
+      url: 'https://www.linkedin.com/in/nicholas-wu/',
+    },
+    {
+      id: nanoid(),
+      name: 'facebook',
       url: 'https://github.com/nickrwu',
     },
   ],
