@@ -79,12 +79,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'kaggle',
-      url: 'https://www.linkedin.com/in/nicholas-wu/',
+      url: 'https://www.kaggle.com/nickrwu',
     },
     {
       id: nanoid(),
-      name: 'facebook',
-      url: 'https://github.com/nickrwu',
+      name: 'google-drive',
+      url: '',
     },
   ],
 };
