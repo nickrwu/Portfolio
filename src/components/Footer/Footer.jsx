@@ -1,10 +1,16 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 import PortfolioContext from '../../context/context';
 import GithubButtons from '../GithubButtons/GithubButtons';
-
 import { githubButtons } from '../../mock/data';
+
+// Font Awesome
+
+library.add(fab);
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
@@ -31,7 +37,7 @@ const Footer = () => {
                   target="_blank"
                   aria-label={name}
                 >
-                  <i className={`fa fa-${name || 'refresh'} fa-inverse`} />
+                  <FontAwesomeIcon icon={['fab', `${name || 'refresh'}`]} inverse />
                 </a>
               );
             })}

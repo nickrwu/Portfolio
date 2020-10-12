@@ -67,8 +67,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/nicholas-wu/',
+    },
+    {
+      id: nanoid(),
+      name: 'github',
+      url: 'https://github.com/nickrwu',
     },
     {
       id: nanoid(),
@@ -77,13 +82,8 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'linkedin',
-      url: 'https://www.linkedin.com/in/nicholas-wu/',
-    },
-    {
-      id: nanoid(),
-      name: 'github',
-      url: 'https://github.com/nickrwu',
+      name: 'google-drive',
+      url: '',
     },
   ],
 };
