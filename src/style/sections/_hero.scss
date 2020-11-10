@@ -25,22 +25,22 @@
   }
 
   .hero-title {
-    font-size: 6.6rem;
+    font-size: 8.6rem;
     font-weight: 700;
     margin-bottom: 1.0rem;
     line-height: 6.6rem;
     text-align: left;
 
     @include respond(tab-land) {
-      font-size: 5.5rem;
+      font-size: 7.5rem;
       line-height: 5.0rem;
     }
     @include respond(tab-port) {
-      font-size: 5.0rem;
+      font-size: 7.0rem;
       text-align: center;
     }
     @include respond(phone) {
-      font-size: 4.5rem;
+      font-size: 4.6rem;
       line-height: 4.0rem;
     }
     @include respond(phone-xs) {
@@ -52,6 +52,8 @@
 
   .hero-subtitle {
     //font-size: 5.6rem;
+    color: #4682bf;
+    //#2872e2;
     font-size: 3.6rem;
     font-weight: 700;
     margin-bottom: 3.2rem;
