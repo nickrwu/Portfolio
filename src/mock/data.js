@@ -31,19 +31,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'YouTube.jpg',
     title: 'YouTube Trending',
-    info: 'Analyzed international YouTube trending data to classify which countries a video trends in.',
+    info: "Predicting engagement (likes and comments) on international YouTube trending videos based on statistics scraped from YouTube's API.",
     info2: '',
     repo: 'https://github.com/nickrwu/YouTube-Trending',
     url: '', // if no url, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'mnist.jpg',
-    title: 'Handwritten Digit Recognition',
-    info: 'Built and trained a Convolutional Neural Network in Python using Keras for sequential model creation to recognize 28x28 pixel \
-    handwritten digits. Successfully calculated an accuracy of around 98% using 28,000 test examples from the MNIST dataset',
+    img: 'understood.jpg',
+    title: 'Understood.org Hackathon @ NYU',
+    info: 'Pitched and predicted the top 10 non-profit organizations for Understood to partner with. Developed an automated web scraper using selenium to scrape non profit company data off of GuideStar.\
+     Calculated feature importance using a Decision Trees Algorithm with sklearn.',
     info2: '',
-    repo: 'https://github.com/nickrwu/Kaggle-DigitClassifier-CNN',
+    repo: 'https://github.com/nickrwu/Datathon-Understood',
     url: '', // if no url, the button will not show up
   },
   {
