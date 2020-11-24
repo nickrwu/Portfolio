@@ -13,8 +13,14 @@ export default () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>{title || 'Nicholas Wu'}</title>
-        <html lang={lang || 'en'} />
+        <html lang={lang || 'en'} prefix="og: http://ogp.me/ns#"/>
         <meta name="description" content={description || 'Portfolio'} />
+
+        {/* OGP Metadata */}
+        <meta property="og:title" content={title || 'Nicholas Wu'}/>
+        <meta property="og:description" content={description || 'Portfolio'}/>
+        <meta name = "image" property="og:image" content="%PUBLIC_URL%/featured.jpg"/>
+        <meta property="og:url" content="https://nickrwu.studio"/>
       </Helmet>
       <App />
     </>
