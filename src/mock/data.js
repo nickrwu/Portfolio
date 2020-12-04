@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'Finance + Data Science',
+  subtitle: 'Statistics + Data Science',
   cta: 'About Me',
 };
 
@@ -31,7 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'YouTube.jpg',
     title: 'YouTube Trending',
-    info: "Predicting engagement (likes and comments) on international YouTube trending videos based on statistics scraped from YouTube's API.",
+    info: "Predicting engagement (likes and comments) on international and domestic YouTube trending videos based \
+    on statistics extracted using YouTube's API.",
     info2: '',
     repo: 'https://github.com/nickrwu/YouTube-Trending',
     url: '', // if no url, the button will not show up
@@ -39,12 +40,14 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'understood.jpg',
-    title: 'Understood.org Hackathon @ NYU',
-    info: 'Pitched and predicted the top 10 non-profit organizations for Understood to partner with. Developed an automated web scraper using selenium to scrape non profit company data off of GuideStar.\
-     Calculated feature importance using a Decision Trees Algorithm with sklearn.',
+    title: 'Understood.org Datathon @ NYU',
+    info: "Predicted and recommended a set of the top 10 non-profit organizations for Understood.org\
+    to collaborate with based on matching the statistics and characteristics of their current partners. Built\
+    a customized python-based data collection tool using Selenium to extract 3,000+ non-profit data from GuideStar’s\
+    reports. Developed models for classification and calculated feature importance using Pandas and sklearn.",
     info2: '',
     repo: 'https://github.com/nickrwu/Datathon-Understood',
-    url: '', // if no url, the button will not show up
+    url: 'https://dsc-nyu.github.io/datathon/', // if no url, the button will not show up
   },
   {
     id: nanoid(),
