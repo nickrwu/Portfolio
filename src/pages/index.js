@@ -4,7 +4,7 @@ import App from '../components/App';
 import { headData } from '../mock/data';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
-import Featured from '../images/featured.jpg';
+import Featured from '../images/featured.jpg'
 
 export default () => {
   const { title, lang, description } = headData;
@@ -21,8 +21,8 @@ export default () => {
         <meta property="og:title" content={title || 'Nicholas Wu'} />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Nicholas Wu Project Portfolio" />
-        <meta name="image" property="og:image" content="../images/featured.jpg" />
-        <meta property="og:url" content={Featured} />
+        <meta name="image" property="og:image" content={Featured} />
+        <meta property="og:url" content="https://nickrwu.studio" />
       </Helmet>
       <App />
     </>
