@@ -19,7 +19,7 @@ export default () => {
 
         {/* OGP Metadata */}
         <meta property="og:title" content={title || 'Nicholas Wu'} />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="Website" />
         <meta property="og:description" content="Nicholas Wu Project Portfolio" />
         <meta name="image" property="og:image" content={Featured} />
         <meta property="og:url" content="https://nickrwu.studio" />
