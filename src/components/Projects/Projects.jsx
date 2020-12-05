@@ -65,7 +65,7 @@ const Projects = () => {
                           className="cta-btn text-color-main"
                           href={url}
                         >
-                          Slide Deck
+                          Project Link
                         </a>
                       )}
                     </div>
