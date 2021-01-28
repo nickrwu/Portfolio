@@ -22,7 +22,7 @@ export const aboutData = {
     "Hey there! I'm an undergrad at New York University's Stern School of Business majoring in Finance/Statistics and minoring in Data Science.",
   paragraphTwo: 'My current interests are in algorithmic trading and machine learning.',
   paragraphThree: 'In my spare time I am competitive fencer and a cooking enthusiast.',
-  resume: 'https://drive.google.com/file/d/1wzpvyF4jmJgYCQNyoBGvWQfsseDQeI7v/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1PuDd7nszJbjVcylLCZU3liQbJD0srEWq/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -31,11 +31,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'YouTube.jpg',
     title: 'YouTube Trending',
-    info: "Predicting engagement (likes and comments) on international and domestic YouTube trending videos based \
-    on statistics extracted using YouTube's API.",
+    info: "Predicted common characteristics of trending videos on YouTube by predicting how engaging a trending video is likely to be. \
+    Automated data collection using YouTube’s Data API to record statistics of trending videos through JSON processing. \
+    Trained gradient boosted tree algorithm with XGBoost and optimized model hyperparameters with Optuna.",
     info2: '',
     repo: 'https://github.com/nickrwu/YouTube-Trending',
-    url: '', // if no url, the button will not show up
+    url: 'https://drive.google.com/file/d/1uf0sMXe4I9CMLMrsC8EncS9I0Y35aHlg/view?usp=sharing', // if no url, the button will not show up
   },
   {
     id: nanoid(),
