@@ -20,8 +20,8 @@ export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
     "Hey there! I'm an undergrad at New York University's Stern School of Business majoring in Finance/Statistics and minoring in Data Science.",
-  paragraphTwo: 'My current interests are in algorithmic trading and machine learning.',
-  paragraphThree: 'In my spare time I am competitive fencer and a cooking enthusiast.',
+  paragraphTwo: 'My current interests are in algorithmic trading, quantitative research, and machine learning.',
+  paragraphThree: 'In my spare time I am a competitive fencer and cooking enthusiast.',
   resume: 'https://drive.google.com/file/d/1PuDd7nszJbjVcylLCZU3liQbJD0srEWq/view?usp=sharing', // if no resume, the button will not show up
 };
 
