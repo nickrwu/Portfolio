@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'Finance/Statistics + Data Science',
+  subtitle: 'Finance & Statistics + Data Science',
   cta: 'About Me',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! I'm an undergrad at New York University's Stern School of Business majoring in Finance/Statistics and minoring in Data Science.",
+    "Hey there! I'm an undergrad at New York University's Stern School of Business co-concentrating in Finance & Statistics and minoring in Data Science.",
   paragraphTwo: 'My current interests are in algorithmic trading, quantitative research, and machine learning.',
   paragraphThree: 'In my spare time I am a competitive fencer and cooking enthusiast.',
   resume: 'https://drive.google.com/file/d/1PuDd7nszJbjVcylLCZU3liQbJD0srEWq/view?usp=sharing', // if no resume, the button will not show up
@@ -27,6 +27,16 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+  {
+    id: nanoid(),
+    img: 'proquest.jpg',
+    title: 'Historical Newspaper NLP (NYU Datathon)',
+    info: "Developed custom Named Entity Recognition (NER) model using SpaCy to predict and classify company, location, and product information from the New York Times and the Atlanta Daily World advertisements.\
+    Built a program with BeautifulSoup that reduced extraction time of a data set with 10 million records by 80%",
+    info2: '',
+    repo: 'https://github.com/nickrwu/Datathon-NLP',
+    url: 'https://drive.google.com/file/d/1eCpQxbUkfE0DCwmdudNwD_gwyc8UdFV7/view?usp=sharing', // if no url, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'YouTube.jpg',
@@ -41,14 +51,15 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'understood.jpg',
-    title: 'Understood.org Datathon @ NYU',
+    title: 'Understood.org Partner Recommender (NYU Datathon)',
     info: "Predicted and recommended a set of the top 10 non-profit organizations for Understood.org\
     to collaborate with based on matching the statistics and characteristics of their current partners. Built\
     a customized python-based data collection tool using Selenium to extract 3,000+ non-profit data from GuideStar’s\
     reports. Developed models for classification and calculated feature importance using Pandas and sklearn.",
     info2: '',
     repo: 'https://github.com/nickrwu/Datathon-Understood',
-    url: 'https://dsc-nyu.github.io/datathon/', // if no url, the button will not show up
+    url: '', // if no url, the button will not show up
+    // NOTE: Insert into URL https://dsc-nyu.github.io/datathon/
   },
   {
     id: nanoid(),
