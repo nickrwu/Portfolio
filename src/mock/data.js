@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'Finance & Statistics + Data Science',
+  subtitle: 'Statistics & Finance + CS & Math',
   cta: 'About Me',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! I'm an undergrad at New York University's Stern School of Business co-concentrating in Finance & Statistics and minoring in Data Science.",
+    "Hey there! I'm an undergrad at New York University's Stern School of Business co-concentrating in Finance & Statistics and joint-minoring in Computer Science and Mathematics.",
   paragraphTwo:
     'My current interests are in algorithmic trading, quantitative research, and machine learning.',
   paragraphThree: 'In my spare time I am a competitive fencer and cooking enthusiast.',
