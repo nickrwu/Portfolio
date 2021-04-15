@@ -43,8 +43,8 @@ export const projectsData = [
     img: 'proquest.jpg',
     title: 'Historical Newspaper NLP (NYU Datathon)',
     info:
-      'Developed custom Named Entity Recognition (NER) model using SpaCy to predict and classify company, location, and product information from the New York Times and the Atlanta Daily World advertisements. Built a program with BeautifulSoup that reduced extraction time of a data set with 10 million records by 80%.',
-    info2: '',
+      'Developed custom Named Entity Recognition (NER) model using SpaCy to predict and classify company, location, and product information from the New York Times and the Atlanta Daily World advertisements.',
+    info2: 'Placed 1st out of 20+ teams',
     repo: 'https://github.com/nickrwu/Datathon-NLP',
     url: 'https://drive.google.com/file/d/1eCpQxbUkfE0DCwmdudNwD_gwyc8UdFV7/view?usp=sharing', // if no url, the button will not show up
   },
@@ -53,7 +53,7 @@ export const projectsData = [
     img: 'YouTube.jpg',
     title: 'YouTube Trending',
     info:
-      'Predicted common characteristics of trending videos on YouTube by predicting how engaging a trending video is likely to be. Automated data collection using YouTube’s Data API to record statistics of trending videos through JSON processing. Trained gradient boosted tree algorithm with XGBoost and optimized model hyperparameters with Optuna.',
+      'Analyzed common characteristics of trending videos on YouTube, predicting the number of likes and views for 2,500+ videos.',
     info2: '',
     repo: 'https://github.com/nickrwu/YouTube-Trending',
     url: 'https://drive.google.com/file/d/1uf0sMXe4I9CMLMrsC8EncS9I0Y35aHlg/view?usp=sharing', // if no url, the button will not show up
@@ -63,7 +63,7 @@ export const projectsData = [
     img: 'understood.jpg',
     title: 'Understood.org Partner Recommender (NYU Datathon)',
     info:
-      'Predicted and recommended a set of the top 10 non-profit organizations for Understood.org to collaborate with based on matching the statistics and characteristics of their current partners. Built a customized python-based data collection tool using Selenium to extract 3,000+ non-profit data from GuideStar’s reports. Developed models for classification and calculated feature importance using Pandas and sklearn.',
+      'Predicted and recommended a set of the top 10 non-profit organizations for Understood.org to collaborate with based on matching the statistics and characteristics of their current partners.',
     info2: '',
     repo: 'https://github.com/nickrwu/Datathon-Understood',
     url: '', // if no url, the button will not show up
@@ -74,7 +74,7 @@ export const projectsData = [
     img: 'thinkpos.jpg',
     title: 'Think+ (Think Positive)',
     info:
-      'Engineered an iOS app titled “Think+” (Think Positive), an application aimed to treat anxiety disorders including depression, phobias, and PTSD utilizing Eye Movement Desensitization and Reprocessing (EMDR) therapy. Researched and coded the main functionality of the application in Swift using SQLite to store user sessions data in a database.',
+      'Engineered an iOS app titled “Think+” (Think Positive), an application aimed to treat anxiety disorders including depression, phobias, and PTSD utilizing Eye Movement Desensitization and Reprocessing (EMDR) therapy.',
     info2: 'Accomplished the sale of 4,000+ units',
     repo: 'https://github.com/nickrwu/ThinkPositive',
     url: '', // if no url, the button will not show up
