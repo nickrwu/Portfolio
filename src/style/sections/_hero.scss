@@ -19,6 +19,7 @@
   bottom: 0;
   right: 0;
   z-index: -1;
+  position: relative;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -93,4 +94,16 @@
       }
     }
   }
+}
+
+#hero::before {
+  content: "";
+  background-color: #000000;
+  background-size: cover;
+  opacity: 0.505859375;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }

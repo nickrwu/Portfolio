@@ -106,11 +106,6 @@ export const footerData = {
       name: 'kaggle',
       url: 'https://www.kaggle.com/nickrwu',
     },
-    {
-      id: nanoid(),
-      name: 'facebook-square',
-      url: 'https://www.facebook.com/nickrwu12',
-    },
   ],
 };
 
