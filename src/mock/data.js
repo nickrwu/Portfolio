@@ -30,7 +30,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'done.png',
+    img: 'done.jpg',
     title: 'Patient Registration Form',
     info:
       'Deployed an appointment registration form for ADHD patients as a challenge for done. Created with a ReactJS frontend and Django backend.',
