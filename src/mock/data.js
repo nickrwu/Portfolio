@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'Statistics & Finance + CS & Math',
+  subtitle: 'Statistics + Computer Science',
   cta: 'About Me',
 };
 
@@ -19,10 +19,11 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! I'm an undergrad at New York University's Stern School of Business co-concentrating in Finance & Statistics and joint-minoring in Computer Science and Mathematics.",
+    "Hey there! I'm a Sophomore at New York University's Stern School of Business concentrating in Statistics and double majoring in Computer Science.",
   paragraphTwo:
     'My current interests are in algorithmic trading, quantitative research, and machine learning.',
-  paragraphThree: 'In my spare time I am a competitive fencer and cooking enthusiast.',
+  paragraphThree:
+    'In my spare time I enjoy competitive fencing, cooking, playing poker, and bouldering.',
   resume: 'https://drive.google.com/file/d/1PuDd7nszJbjVcylLCZU3liQbJD0srEWq/view?usp=sharing', // if no resume, the button will not show up
 };
 
