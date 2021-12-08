@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: ' ',
   name: 'Nicholas Wu',
-  subtitle: 'Statistics + Computer Science',
+  subtitle: 'Finance & Statistics + Computer Science',
   cta: 'About Me',
 };
 
@@ -19,9 +19,8 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    "Hey there! I'm a Sophomore at New York University's Stern School of Business concentrating in Statistics and double majoring in Computer Science.",
-  paragraphTwo:
-    'My current interests are in algorithmic trading, quantitative research, and machine learning.',
+    "Hey there! I'm a Sophomore at New York University's Stern School of Business concentrating in Finance + Statistics and double majoring in Computer Science.",
+  paragraphTwo: 'I am currently pursuing a career in Product Management.',
   paragraphThree:
     'In my spare time I enjoy competitive fencing, cooking, playing poker, and bouldering.',
   resume: 'https://drive.google.com/file/d/1PuDd7nszJbjVcylLCZU3liQbJD0srEWq/view?usp=sharing', // if no resume, the button will not show up
